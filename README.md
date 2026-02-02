@@ -22,6 +22,7 @@ Through this project, I used my analytical and attention to details skill comple
 
 Our base model is Logistic regression, while the best model is random forest.
 
+## Jargons / Key concepts
 --Cardinality:-
 --Multi collinearity:-
 --Data Mining:-
@@ -29,7 +30,7 @@ Our base model is Logistic regression, while the best model is random forest.
 
 ## Libraries used:
 
-Scikit learn, pandas, numpy,
-Seaborn, matplotlib
-Scipy, statsmodels,
+* Scikit learn, pandas, numpy,
+* Seaborn, matplotlib
+* Scipy, statsmodels,
 
