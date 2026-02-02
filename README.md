@@ -23,10 +23,11 @@ Through this project, I used my analytical and attention to details skill comple
 Our base model is Logistic regression, while the best model is random forest.
 
 ## Jargons / Key concepts
---Cardinality:-
---Multi collinearity:-
---Data Mining:-
---EDA:-
+
+* Cardinality:- When a categorical column has a large number of categories and they are of nominal type.
+* Multi collinearity:- when attributes are highly correlated with each other.
+* Data Mining:-  Extraction of useful knowledge from the data is known as Data Mining.
+* EDA:-  Exploratory Data Analysis, process to find out the stories, the hidden patterns inside our dataset.
 
 ## Libraries used:
 
