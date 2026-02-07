@@ -1,0 +1,20 @@
+Every dataset is unique and thus posess thier own stories and patterns.
+along with their own challenges and randomness.
+
+* EDA process is iterative and non sequential. which means any step can come prior to another as we continue to tackle the challenges.
+
+
+* In this work, lot of focus has been given to data profiling, data wrangling and pattern finding.
+* Suitable qualititative and quantitative methods has been utilised for performing data mining.
+
+
+Contains different ipynb files:-
+
+* Insights
+* Injection_and_profiling
+* EDA
+* Model Building
+* Utility_functions
+
+
+Data_dict
