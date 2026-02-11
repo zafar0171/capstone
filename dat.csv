@@ -1,0 +1,77 @@
+COLUMN NAME,TYPE,DESCRIPTION
+acc_now_delinq,boolean,The number of accounts on which the borrower is now delinquent.
+addr_state,string,The state provided by the borrower in the loan application.
+all_util,string,Balance to credit limit on all trades.
+annual_inc,decimal,The self-reported annual income provided by the borrower during registration.
+annual_inc_joint,string,The combined self-reported annual income provided by the co-borrowers during registration.
+application_type,string,Indicates whether the loan is an individual application or a joint application with two co-borrowers.
+collection_recovery_fee,decimal,Post-charge off collection fee.
+collections_12_mths_ex_med,boolean,Number of collections in 12 months excluding medical collections.
+delinq_2yrs,integer,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years.
+desc,string,Loan description provided by the borrower.
+dti,decimal,A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations excluding mortgage and the requested LC loan divided by the borrower’s self-reported monthly income.
+dti_joint,string,A ratio calculated using the co-borrowers' total monthly payments on the total debt obligations excluding mortgages and the requested LC loan divided by the co-borrowers' combined self-reported monthly income.
+earliest_cr_line,yearmonth,The month the borrower's earliest reported credit line was opened.
+emp_length,string,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+emp_title,string,The job title supplied by the Borrower when applying for the loan.
+funded_amnt,integer,The total amount committed to that loan at that point in time.
+funded_amnt_inv,decimal,The total amount committed by investors for that loan at that point in time.
+grade,string,LC assigned loan grade.
+home_ownership,string,The home ownership status provided by the borrower during registration. Possible values are: 1)RENT 2)OWN 3)MORTGAGE 4)OTHER.
+id,string,A unique LC assigned ID for the loan listing.
+il_util,string,Ratio of total current balance to high credit/credit limit on all installment accounts.
+initial_list_status,boolean,The initial listing status of the loan. Possible values are – 1)W 2)F.
+inq_fi,string,Number of personal finance inquiries.
+inq_last_12m,string,Number of credit inquiries in the past 12 months.
+inq_last_6mths,integer,The number of inquiries in the past 6 months (excluding auto and mortgage inquiries).
+installment,decimal,The monthly payment owed by the borrower if the loan originates.
+int_rate,decimal,Interest Rate on the loan.
+issue_d,yearmonth,The month which the loan was funded.
+last_credit_pull_d,yearmonth,The most recent month LC pulled credit for this loan.
+last_pymnt_amnt,decimal,Last total payment amount received.
+last_pymnt_d,yearmonth,Last month payment was received.
+loan_amnt,integer,The listed amount of the loan applied for by the borrower. If at some point in time the credit department reduces the loan amount then it will be reflected in this value.
+loan_status,string,Current status of the loan.
+max_bal_bc,string,Maximum current balance owed on all revolving accounts.
+member_id,integer,A unique LC assigned ID for the borrower member.
+mths_since_last_delinq,integer,The number of months since the borrower's last delinquency.
+mths_since_last_major_derog,string,Months since the most recent 90-day or worse rating.
+mths_since_last_record,integer,The number of months since the last public record.
+mths_since_rcnt_il,string,Months since most recent installment accounts opened.
+next_pymnt_d,yearmonth,Next scheduled payment date.
+open_acc,integer,The number of open credit lines in the borrower's credit file.
+open_acc_6m,string,Number of open trades in the last 6 months.
+open_il_12m,string,Number of installment accounts opened in the past 12 months.
+open_il_24m,string,Number of installment accounts opened in the past 24 months.
+open_il_6m,string,Number of currently active installment trades.
+open_rv_12m,string,Number of revolving trades opened in the past 12 months.
+open_rv_24m,string,Number of revolving trades opened in the past 24 months.
+out_prncp,decimal,Remaining outstanding principal for the total amount funded.
+out_prncp_inv,decimal,Remaining outstanding principal for the portion of total amount funded by investors.
+pct_tl_nvr_dlq,string,Percent of trades never delinquent.
+policy_code,boolean,Publicly available policy_code=1 (new products not publicly available policy_code=2).
+pub_rec,integer,Number of derogatory public records.
+purpose,string,A category provided by the borrower for the loan request.
+pymnt_plan,boolean,Indicates if a payment plan has been put in place for the loan.
+recoveries,decimal,Post-charge off gross recovery.
+revol_bal,integer,Total credit revolving balance.
+revol_util,decimal,Revolving line utilization rate or the amount of credit the borrower is using relative to all available revolving credit.
+sub_grade,string,LC assigned loan subgrade.
+term,string,The number of payments on the loan. Values are in months and can be either 36 or 60.
+title,string,The loan title provided by the borrower.
+tot_coll_amt,string,Total collection amounts ever owed.
+tot_cur_bal,string,Total current balance of all accounts.
+total_acc,integer,The total number of credit lines currently in the borrower's credit file.
+total_bal_il,string,Total current balance of all installment accounts.
+total_cu_tl,string,Number of finance trades.
+total_pymnt,decimal,Payments received to date for the total amount funded.
+total_pymnt_inv,decimal,Payments received to date for the portion of the total amount funded by investors.
+total_rec_int,decimal,Interest received to date.
+total_rec_late_fee,decimal,Late fees received to date.
+total_rec_prncp,decimal,Principal received to date.
+total_rev_hi_lim,string,Total revolving high credit/credit limit.
+url,url,URL for the LC page with listing data.
+verification_status,string,Indicates if income was verified by LC not verified or if the income source was verified.
+verified_status_joint,string,Indicates if the co-borrowers' joint income was verified by LC not verified or if the income source was verified.
+zip_code,string,The first 3 numbers of the zip code provided by the borrower in the loan application.
+
